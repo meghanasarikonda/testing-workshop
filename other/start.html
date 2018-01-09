@@ -25,10 +25,13 @@ form.addEventListener('submit', e => {
 })
 
 // Write some test code right here!
-// call addInputValues with numbers as strings
+// call addInputV alues with numbers as strings
 // (because input1.value and input2.value will always be strings)
 // For example:
-// const result = addInputValues('3', '4')
+const result = addInputValues('3', '4')
+if (result !== 7) {
+  throw new Error("result not expected")
+}
 // If the result is not the sum of those numbers (ie 7),
 // then throw an error!
 
